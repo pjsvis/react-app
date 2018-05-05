@@ -36,7 +36,7 @@ class HeaderNav extends React.Component<any, IHeaderNavState> {
     public render() {
         return (
             <div>
-            <Navbar color="inverse" light={true} expand="md">
+            <Navbar color="dark" className="navbar-dark navbar-exand-sm" light={true} expand="md">
               <NavbarBrand> <img src={logo} className="App-logo" alt="logo" /></NavbarBrand>
                     <NavbarBrand href="/">reactstrap</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />

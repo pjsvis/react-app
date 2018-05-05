@@ -10,10 +10,21 @@ This document lists sources of guidance and potentially useful components.
 - [X] react=transition-group
 - [X] react-popper
 - [X] font-awesome
-- [ ] simple-line-icons
+- [X] simple-line-icons
+- [ ] react-router
+- [ ] emzyne
+- [ ] jest
+- [ ] puppeteer
+
+## reactstrap guidance
+
+- [ ] [navbar drop down](https://codepen.io/eddywashere/pen/KgjQay)
 
 ## guidance
 
+- [ ] [form submission](https://stackblitz.com/edit/react-qcswey)
+- [ ] [react and typescript book](https://charleslbryant.gitbooks.io/hello-react-and-typescript/content/Samples/ComponentPropsAndState.html)
+- [ ] [app structure](https://hackernoon.com/the-100-correct-way-to-structure-a-react-app-or-why-theres-no-such-thing-3ede534ef1ed)
 - [ ] [5 ways to benefitr from react with typescript](https://brightinventions.pl/blog/5-ways-to-benefit-from-typescript-in-react/)
 - [ ] [using typescript with react](https://blog.logrocket.com/how-why-a-guide-to-using-typescript-with-react-fffb76c61614)
 - [ ] [eric elliot](https://ericelliottjs.com/product/lifetime-access-pass/) lifetime pass
