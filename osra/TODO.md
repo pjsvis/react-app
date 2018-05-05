@@ -14,6 +14,7 @@ This document lists sources of guidance and potentially useful components.
 
 ## guidance
 
+- [ ] [5 ways to benefitr from react with typescript](https://brightinventions.pl/blog/5-ways-to-benefit-from-typescript-in-react/)
 - [ ] [using typescript with react](https://blog.logrocket.com/how-why-a-guide-to-using-typescript-with-react-fffb76c61614)
 - [ ] [eric elliot](https://ericelliottjs.com/product/lifetime-access-pass/) lifetime pass
 - [ ] [typescript-react-starter](https://github.com/Microsoft/TypeScript-React-Starter)

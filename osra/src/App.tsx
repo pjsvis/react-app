@@ -1,25 +1,23 @@
 import * as React from 'react';
 import { Button } from 'reactstrap';
 import './App.css';
+import HeaderNav from './HeaderNav/HeaderNav';
 
-import logo from './logo.svg';
+// import logo from './logo.svg';
 
 class App extends React.Component {
-  public render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <div><Button>Hello</Button></div>
-      </div>
-
-    );
-  }
+    public render() {
+        return (
+            <div className="App">
+                <div>
+                    <HeaderNav />
+                </div>
+                <div>
+                    <Button>Hello</Button>
+                </div>
+            </div>
+        );
+    }
 }
 
 export default App;
