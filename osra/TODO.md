@@ -2,6 +2,10 @@
 
 This document lists sources of guidance and potentially useful components.
 
+## pats
+- pat for octatree `02922dfb83065d943f1236e343c9754eec6aae97`
+- pat for vscode setting `6e0fb59b1e9a940948c29787829da463cfca0faa`
+
 ## installations
 
 - [X] typescript-react-starter
