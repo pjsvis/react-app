@@ -3,8 +3,8 @@
 This document lists sources of guidance and potentially useful components.
 
 ## pats
-- pat for octatree `02922dfb83065d943f1236e343c9754eec6aae97`
-- pat for vscode setting `6e0fb59b1e9a940948c29787829da463cfca0faa`
+- octatree `02922dfb83065d943f1236e343c9754eec6aae97`
+- vscode settings `6e0fb59b1e9a940948c29787829da463cfca0faa`
 
 ## installations
 
@@ -20,6 +20,10 @@ This document lists sources of guidance and potentially useful components.
 - [ ] react-history
 - [ ] puppeteer
 - [ ] typedoc
+- [ ] ag-grid-react
+- [ ] add sass pre-processor (see readme)
+- [ ] forms helper (eg neoform)
+- [ ] react-docgen
 
 ## testing
 - currently not working on windows because of a path issue
@@ -33,6 +37,13 @@ This document lists sources of guidance and potentially useful components.
 
 ## react guidance
 
+- [ ] [react redux links](https://github.com/markerikson/react-redux-links/blob/master/react-architecture.md)
+- [ ] [awesome react](https://github.com/enaqx/awesome-react) tools and techniques
+- [ ] [react patterns](https://reactpatterns.com/)
+- [ ] [react best practices 2018](https://blog.risingstack.com/8-tips-to-build-better-react-apps-in-2018/)
+- [ ] [boltpkg](https://github.com/boltpkg/bolt) project management
+- [ ] [authentication](https://auth0.com/blog/reactjs-authentication-tutorial/) example with chuck norris world
+- [ ] [calling super inside constructor](http://cheng.logdown.com/posts/2016/03/26/683329)
 - [ ] [ajax requests in react](https://daveceddia.com/ajax-requests-in-react/) see `api/reddit.tsx`
 - [ ] [typedoc](https://github.com/TypeStrong/typedoc)
 - [ ] [react-router-dom](https://reacttraining.com/react-router/)
@@ -47,6 +58,19 @@ This document lists sources of guidance and potentially useful components.
 - [ ] [react with typescript](https://blog.logrocket.com/how-why-a-guide-to-using-typescript-with-react-fffb76c61614)
 
 ## components
+
+- [ ] [react-formal](https://louisbarranqueiro.github.io/reapop/)
+- [ ] [notifications](https://louisbarranqueiro.github.io/reapop/)
+- [ ] [filepond](https://pqina.nl/filepond/) file uploader
+- [ ] [blueprint](http://blueprintjs.com/) ui components
+- [ ] [mail component](https://mjml.io/documentation/#components)
+- [ ] [buttermilk](https://buttermilk.js.org) simple router
+- [ ] [normalizer.js](https://medium.com/farmdrop/using-normalizr-js-in-a-redux-store-96ab33991369)  takes a deeply nested javascript object and flattens it out
+- [ ] [camunda bpm swagger](https://github.com/camunda/camunda-bpm-swagger)
+- [ ] [swagger codegen](https://swagger.io/swagger-codegen/)
+- [ ] [dayjs](https://github.com/xx45/dayjs) immutable moment alternative
+- [ ] [rollbar](https://www.npmjs.com/package/rollbar) for error notification and logging. see [https://rollbar.com/pjstarifa](https://rollbar.com/pjstarifa) for logs
+- [ ] [smalldots](https://github.com/smalldots/smalldots/wiki/Customizing-Fetch) component wrapper for axios
 - [ ] [side bar](https://github.com/balloob/react-sidebar/blob/master/src/sidebar.js)
 - [ ] [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker)
 - [ ] [faker](https://github.com/marak/Faker.js/)
