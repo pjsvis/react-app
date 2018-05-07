@@ -29,7 +29,7 @@ class CheckboxWithLabel extends React.Component<ICheckboxWithLabelProps, ICheckb
                         onChange={() =>
                             this.setState(current => ({ isChecked: !current.isChecked }))
                         }
-                    />{' '}
+                    />
                     {this.state.isChecked ? this.props.labelOn : this.props.labelOff}
                 </label>
                 {/* TODO: implement checkbox state */}

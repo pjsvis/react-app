@@ -1,17 +1,12 @@
 import * as React from 'react';
 import {
-    Button,
-    Col,
     Collapse,
-    Container,
-    Jumbotron,
     Nav,
     Navbar,
     NavbarBrand,
     NavbarToggler,
     NavItem,
     NavLink,
-    Row
 } from 'reactstrap';
 import logo from '../logo.svg';
 
@@ -38,7 +33,7 @@ class HeaderNav extends React.Component<any, IHeaderNavState> {
             <div>
             <Navbar color="dark" className="navbar-dark navbar-exand-sm" light={true} expand="md">
               <NavbarBrand> <img src={logo} className="App-logo" alt="logo" /></NavbarBrand>
-                    <NavbarBrand href="/">reactstrap</NavbarBrand>
+                    <NavbarBrand href="/">OS Reference App</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar={true}>
                         <Nav className="ml-auto" navbar={true}>
@@ -53,26 +48,6 @@ class HeaderNav extends React.Component<any, IHeaderNavState> {
                         </Nav>
                     </Collapse>
                 </Navbar>
-                <Jumbotron>
-                    <Container>
-                        <Row>
-                            <Col>
-                                <h1>Welcome to React</h1>
-                                <p>
-                                    <Button
-                                        tag="a"
-                                        color="success"
-                                        size="large"
-                                        href="http://reactstrap.github.io"
-                                        target="_blank"
-                                    >
-                                        View Reactstrap Docs
-                                    </Button>
-                                </p>
-                            </Col>
-                        </Row>
-                    </Container>
-                </Jumbotron>
             </div>
         );
     }

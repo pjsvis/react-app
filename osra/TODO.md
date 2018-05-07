@@ -7,21 +7,31 @@ This document lists sources of guidance and potentially useful components.
 - [X] typescript-react-starter
 - [X] bootstrap 4
 - [X] reactstrap
-- [X] react=transition-group
+- [X] react-transition-group
 - [X] react-popper
 - [X] font-awesome
 - [X] simple-line-icons
-- [ ] react-router
-- [ ] emzyne
-- [ ] jest
+- [X] axios
+- [ ] react-router-dom
+- [ ] react-history
 - [ ] puppeteer
+- [ ] typedoc
+
+## testing
+- currently not working on windows because of a path issue
+- the javascript test runner vscode extension will add code lens `run test` annotations to tests
+- install jest globally - name test files `name.spec.ts/js`
 
 ## reactstrap guidance
 
+- [ ] [content passed in as children](https://github.com/reactstrap/reactstrap#about-the-project)
 - [ ] [navbar drop down](https://codepen.io/eddywashere/pen/KgjQay)
 
-## guidance
+## react guidance
 
+- [ ] [ajax requests in react](https://daveceddia.com/ajax-requests-in-react/) see `api/reddit.tsx`
+- [ ] [typedoc](https://github.com/TypeStrong/typedoc)
+- [ ] [react-router-dom](https://reacttraining.com/react-router/)
 - [ ] [form submission](https://stackblitz.com/edit/react-qcswey)
 - [ ] [react and typescript book](https://charleslbryant.gitbooks.io/hello-react-and-typescript/content/Samples/ComponentPropsAndState.html)
 - [ ] [app structure](https://hackernoon.com/the-100-correct-way-to-structure-a-react-app-or-why-theres-no-such-thing-3ede534ef1ed)
@@ -33,7 +43,13 @@ This document lists sources of guidance and potentially useful components.
 - [ ] [react with typescript](https://blog.logrocket.com/how-why-a-guide-to-using-typescript-with-react-fffb76c61614)
 
 ## components
-
+- [ ] [side bar](https://github.com/balloob/react-sidebar/blob/master/src/sidebar.js)
+- [ ] [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker)
+- [ ] [faker](https://github.com/marak/Faker.js/)
+- [ ] [react-hotkeys](https://github.com/greena13/react-hotkeys)
+- [ ] [react-shortcuts](https://github.com/avocode/react-shortcuts)
+- [ ] [deni-react-treeview](https://denimar.github.io/deni-react-treeview/examples/#/onselectItem)
+- [ ] [react treeview](https://github.com/alexcurtis/react-treebeard)
 - [ ] [reactstrap](https://github.com/reactstrap/reactstrap#adding-bootstrap) for bootstrap 4 support
 - [ ] refer to [coreui](https://github.com/coreui/coreui-free-bootstrap-admin-template) for bootstrap 4 admin template example
 - [ ] [react-idle](https://github.com/ReactTraining/react-idle) to timeout user after inactivity
