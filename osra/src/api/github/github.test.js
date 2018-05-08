@@ -1,12 +1,13 @@
 import * as github from './github';
 
+// NOTE: These tests will quickly exceed the github api limits and subsequently fail
 // logged in user
 describe('#fetchCurrentUser() using Promises', () => {
   it('should load current users data', () => {
     return github.fetchCurrentUser()
-    .then(data => {
-      expect(data).toBeDefined();
-    })
+      .then(data => {
+        expect(data).toBeDefined();
+      })
   })
 })
 
@@ -14,9 +15,9 @@ describe('#fetchCurrentUser() using Promises', () => {
 describe('#fetchMembers() using Promises', () => {
   it('should load members data', () => {
     return github.fetchMembers('lemoncode')
-    .then(data => {
-      expect(data).toBeDefined()
-    })
+      .then(data => {
+        expect(data).toBeDefined()
+      })
   })
 })
 
@@ -24,8 +25,8 @@ describe('#fetchMembers() using Promises', () => {
 describe('#fetchRepos() using Promises', () => {
   it('should load repo data', () => {
     return github.fetchMembers('lemoncode')
-    .then(data => {
-      expect(data).toBeDefined()
-    })
+      .then(data => {
+        expect(data).toBeDefined()
+      })
   })
 })

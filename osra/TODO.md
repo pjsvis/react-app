@@ -24,11 +24,15 @@ This document lists sources of guidance and potentially useful components.
 - [ ] add sass pre-processor (see readme)
 - [ ] forms helper (eg neoform)
 - [ ] react-docgen
+- [ ] istambul test coverage
+
+## camunda
+
+- [ ] [custom-tasklist-examples](https://blog.camunda.com/post/2018/02/custom-tasklist-examples/)
 
 ## testing
-- currently not working on windows because of a path issue
-- the javascript test runner vscode extension will add code lens `run test` annotations to tests
-- install jest globally - name test files `name.spec.ts/js`
+
+- [ts-interface-checker](https://github.com/gristlabs/ts-interface-checker)
 
 ## reactstrap guidance
 
@@ -37,6 +41,7 @@ This document lists sources of guidance and potentially useful components.
 
 ## react guidance
 
+- [ ] [optimizing react](https://evilmartians.com/chronicles/optimizing-react-virtual-dom-explained)
 - [ ] [react redux links](https://github.com/markerikson/react-redux-links/blob/master/react-architecture.md)
 - [ ] [awesome react](https://github.com/enaqx/awesome-react) tools and techniques
 - [ ] [react patterns](https://reactpatterns.com/)
@@ -59,6 +64,10 @@ This document lists sources of guidance and potentially useful components.
 
 ## components
 
+- [ ] [downshift](https://blog.kentcdodds.com/introducing-downshift-for-react-b1de3fca0817) autocomplete with [match-sorter](https://github.com/kentcdodds/match-sorter)
+- [ ] [cytoscape](http://js.cytoscape.org) for graph analysis and visualisation
+- [ ] [react-spring](https://blog.usejournal.com/why-react-needed-yet-another-animation-library-introducing-react-spring-8212e424c5ce) for animations
+- [ ] [blueprintjs hotkeys](http://blueprintjs.com/docs/v2/#core/components/hotkeys)
 - [ ] [react-formal](https://louisbarranqueiro.github.io/reapop/)
 - [ ] [notifications](https://louisbarranqueiro.github.io/reapop/)
 - [ ] [filepond](https://pqina.nl/filepond/) file uploader

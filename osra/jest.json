@@ -1,3 +1,4 @@
 {
-  "coverageReporters": ["text-summary", "html"]
+  "coverageReporters": ["text-summary", "html"],
+  "coverageDirectory": "<rootDir>/coverage"
 }
