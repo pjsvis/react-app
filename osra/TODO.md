@@ -58,8 +58,17 @@ This document lists sources of guidance and potentially useful components.
 - [ ] [react-router-redux](https://github.com/reactjs/react-router-redux) router with redux
 - [ ] [draftjs](https://draftjs.org/docs/overview.html#content) for text input
 
-## java spring
+## java spring authentication
 
-- [ ] [java spring websockets](https://spring.io/guides/gs/messaging-stomp-websocket/)
 - [ ] [spring windows login](https://docs.spring.io/spring-security-kerberos/docs/current/reference/html/samples-sec-server-win-auth.html )
 - [ ] [spring active directory](https://www.ziaconsulting.com/developer-help/spring-security-active-directory/ )
+
+## java sprint websockets
+
+- [ ] [spring 5 websockets](http://www.baeldung.com/websockets-spring)
+- [ ] [java spring stomp websockets](https://spring.io/guides/gs/messaging-stomp-websocket/)
+- [ ] [sockjs client](https://github.com/sockjs/sockjs-client) no longer maintained
+- [ ] [react-stomp](https://www.npmjs.com/package/react-stomp) component is actively maintained
+
+
+
