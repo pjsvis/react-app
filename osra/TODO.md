@@ -69,6 +69,7 @@ This document lists sources of guidance and potentially useful components.
 - [ ] [java spring stomp websockets](https://spring.io/guides/gs/messaging-stomp-websocket/)
 - [ ] [sockjs client](https://github.com/sockjs/sockjs-client) no longer maintained
 - [ ] [react-stomp](https://www.npmjs.com/package/react-stomp) component is actively maintained
+- [ ] [messaging example](https://react-websocket.herokuapp.com/index) looks good
 
 
 
