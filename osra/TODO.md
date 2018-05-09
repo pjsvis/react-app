@@ -66,6 +66,7 @@ This document lists sources of guidance and potentially useful components.
 
 ## components
 
+<<<<<<< HEAD
 - [ ] [downshift](https://blog.kentcdodds.com/introducing-downshift-for-react-b1de3fca0817) autocomplete with [match-sorter](https://github.com/kentcdodds/match-sorter)
 - [ ] [cytoscape](http://js.cytoscape.org) for graph analysis and visualisation
 - [ ] [react-spring](https://blog.usejournal.com/why-react-needed-yet-another-animation-library-introducing-react-spring-8212e424c5ce) for animations
@@ -82,6 +83,8 @@ This document lists sources of guidance and potentially useful components.
 - [ ] [dayjs](https://github.com/xx45/dayjs) immutable moment alternative
 - [ ] [rollbar](https://www.npmjs.com/package/rollbar) for error notification and logging. see [https://rollbar.com/pjstarifa](https://rollbar.com/pjstarifa) for logs
 - [ ] [smalldots](https://github.com/smalldots/smalldots/wiki/Customizing-Fetch) component wrapper for axios
+=======
+>>>>>>> 44919bd56d2c9ce46a06df2d99a6c8085329ffa6
 - [ ] [side bar](https://github.com/balloob/react-sidebar/blob/master/src/sidebar.js)
 - [ ] [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker)
 - [ ] [faker](https://github.com/marak/Faker.js/)
@@ -95,3 +98,19 @@ This document lists sources of guidance and potentially useful components.
 - [ ] [react-router](https://github.com/ReactTraining/react-router) as a router
 - [ ] [react-router-redux](https://github.com/reactjs/react-router-redux) router with redux
 - [ ] [draftjs](https://draftjs.org/docs/overview.html#content) for text input
+
+## java spring authentication
+
+- [ ] [spring windows login](https://docs.spring.io/spring-security-kerberos/docs/current/reference/html/samples-sec-server-win-auth.html )
+- [ ] [spring active directory](https://www.ziaconsulting.com/developer-help/spring-security-active-directory/ )
+
+## java sprint websockets
+
+- [ ] [spring 5 websockets](http://www.baeldung.com/websockets-spring)
+- [ ] [java spring stomp websockets](https://spring.io/guides/gs/messaging-stomp-websocket/)
+- [ ] [sockjs client](https://github.com/sockjs/sockjs-client) no longer maintained
+- [ ] [react-stomp](https://www.npmjs.com/package/react-stomp) component is actively maintained
+- [ ] [messaging example](https://react-websocket.herokuapp.com/index) looks good
+
+
+
