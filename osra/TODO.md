@@ -2,7 +2,8 @@
 
 This document lists sources of guidance and potentially useful components.
 
-## pats
+## pat
+
 - octatree `02922dfb83065d943f1236e343c9754eec6aae97`
 - vscode settings `6e0fb59b1e9a940948c29787829da463cfca0faa`
 
@@ -32,6 +33,7 @@ This document lists sources of guidance and potentially useful components.
 
 ## testing
 
+- [ ] [react-testing-library] (https://www.npmjs.com/package/react-testing-library) from Kent C Dodds
 - [ts-interface-checker](https://github.com/gristlabs/ts-interface-checker)
 
 ## reactstrap guidance
