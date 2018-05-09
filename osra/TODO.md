@@ -43,6 +43,7 @@ This document lists sources of guidance and potentially useful components.
 - [ ] [react with typescript](https://blog.logrocket.com/how-why-a-guide-to-using-typescript-with-react-fffb76c61614)
 
 ## components
+
 - [ ] [side bar](https://github.com/balloob/react-sidebar/blob/master/src/sidebar.js)
 - [ ] [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker)
 - [ ] [faker](https://github.com/marak/Faker.js/)
@@ -56,3 +57,9 @@ This document lists sources of guidance and potentially useful components.
 - [ ] [react-router](https://github.com/ReactTraining/react-router) as a router
 - [ ] [react-router-redux](https://github.com/reactjs/react-router-redux) router with redux
 - [ ] [draftjs](https://draftjs.org/docs/overview.html#content) for text input
+
+## java spring
+
+- [ ] [java spring websockets](https://spring.io/guides/gs/messaging-stomp-websocket/)
+- [ ] [spring windows login](https://docs.spring.io/spring-security-kerberos/docs/current/reference/html/samples-sec-server-win-auth.html )
+- [ ] [spring active directory](https://www.ziaconsulting.com/developer-help/spring-security-active-directory/ )
