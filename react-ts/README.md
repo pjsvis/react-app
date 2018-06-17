@@ -1,3 +1,34 @@
+# creat-react-app
+
+## setup
+
+- `npm install` to install dependencies
+- `npm run start` to run in dev mode on port 3000
+- alternativelly use `yarn` and `yarn start`
+
+## jsx integration
+
+- `tsx` components are imported as `import * as CcForm from './components/Forms/CcForm';`
+- `jsx` components need to be imported as `import CcForm from './components/Forms/CcForm';` also add `/** @augments {React.Component<object, object>} */` abive the `export default CcForm`
+
+
+## issues
+
+- install `yarn` from download and use instead of `npm`
+- npm start can't find script => use `yarn` to install dependencies [ref](https://github.com/facebook/create-react-app/issues/1627#issuecomment-294316176)
+- tslint member-ordering doesn't work => see [docs](https://palantir.github.io/tslint/) for fix
+
+```
+ "member-ordering": [
+            true,
+            "public-before-private",
+            "static-before-instance",
+            "variables-before-functions"
+        ],
+```
+
+## readme
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -283,7 +314,7 @@ In the WebStorm menu `Run` select `Edit Configurations...`. Then click `+` and s
 
 Start your app by running `npm start`, then press `^D` on macOS or `F9` on Windows and Linux or click the green debug icon to start debugging in WebStorm.
 
-The same way you can debug your application in IntelliJ IDEA Ultimate, PhpStorm, PyCharm Pro, and RubyMine. 
+The same way you can debug your application in IntelliJ IDEA Ultimate, PhpStorm, PyCharm Pro, and RubyMine.
 
 ## Formatting Code Automatically
 
@@ -1794,7 +1825,7 @@ If you’re using [Apache HTTP Server](https://httpd.apache.org/), you need to c
     RewriteRule ^ index.html [QSA,L]
 ```
 
-It will get copied to the `build` folder when you run `npm run build`. 
+It will get copied to the `build` folder when you run `npm run build`.
 
 If you’re using [Apache Tomcat](http://tomcat.apache.org/), you need to follow [this Stack Overflow answer](https://stackoverflow.com/a/41249464/4878474).
 
