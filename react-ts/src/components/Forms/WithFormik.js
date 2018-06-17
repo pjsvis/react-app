@@ -15,6 +15,9 @@ const formikEnhancer = withFormik({
             setSubmitting(false);
         }, 1000);
     },
+    // handleReset: (values) = {
+
+    // },
     displayName: 'MyForm' // helps with React DevTools
 });
 
@@ -46,14 +49,14 @@ const MyForm = props => {
             />
             {errors.email && touched.email && <div className="input-feedback">{errors.email}</div>}
 
-            <button
+            {/* <button
                 type="button"
                 className="outline"
                 onClick={handleReset}
                 disabled={!dirty || isSubmitting}
             >
                 Reset
-            </button>
+            </button> */}
             <button type="submit" disabled={isSubmitting}>
                 Submit
             </button>
